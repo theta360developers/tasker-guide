@@ -1,1 +1,22 @@
-site_name: My Docs
+site_name: Tasker for Ricoh Theta
+
+nav:
+    - Home: 'index.md'
+    - Deep-Linking URL: 'http-req-tut.md'
+    - Run Tasker Commands: 'tasker-tut.md'
+    - Add Commands to Homescreen: 'homescreen-tut.md'
+    - Exporting Task as a Link: 'export-tut.md'
+
+
+
+extra:
+  analytics: 
+    provider: google
+    property: G-M64WFDW435
+theme:
+  name: material
+  palette:
+    primary: 'light green'
+    accent: 'lime'
+  logo: images/icon/green-logo-192x192.png
+  favicon: images/icon/favicon-16x16.png
