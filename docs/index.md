@@ -1,4 +1,4 @@
-# Using Tasker on Android to Run API Commands automatically
+# Using Tasker on Android to Run RICOH THETA Web API Commands automatically
 
 ![ricohicon](images/icon/green-logo-96x96.png)
 ![taskericon](images/icon/android-chrome-96x96.png)
@@ -40,6 +40,8 @@ Tasker is going to be used to execute a set of API commands automatically from H
 * [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en_US&gl=US)
 * [HTTP Request Shortcuts](https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts)
 
+## Resources
+* [THETA Web API v2.1](https://github.com/ricohapi/theta-api-specs/tree/main/theta-web-api-v2.1)
 
 ## General Steps
 1. [Get Deep-linking URL from HTTP Shortcuts app](http-req-tut.md)
