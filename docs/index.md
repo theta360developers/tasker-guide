@@ -1,6 +1,5 @@
 # Using Tasker on Android to Run RICOH THETA Web API Commands automatically
-
-![ricohicon](images/icon/green-logo-96x96.png)
+![thetaX](images/thetaX.png)
 ![taskericon](images/icon/android-chrome-96x96.png)
 ![httpreqicon](images/icon/httpreqshort96.png)
 <svg role="img" fill="#3DDC84" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="96px" height="96px" ><title>Android</title><path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4483-.9993.9993-.9993c.5511 0 .9993.4483.9993.9993.0001.5511-.4482.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4483.9993.9993 0 .5511-.4483.9997-.9993.9997m11.4045-6.02l1.9973-3.4592a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.503C15.5902 8.2439 13.8533 7.8508 12 7.8508s-3.5902.3931-5.1367 1.0989L4.841 5.4467a.4161.4161 0 00-.5677-.1521.4157.4157 0 00-.1521.5676l1.9973 3.4592C2.6889 11.1867.3432 14.6589 0 18.761h24c-.3435-4.1021-2.6892-7.5743-6.1185-9.4396"/></svg>
@@ -8,6 +7,7 @@
 ## You will Learn
 * Using the Tasker App to Run RICOH THETA Web API Commands Sequentially
 * Sharing your Task with others to use on their device
+
 
 
 ## Summary 
@@ -19,7 +19,7 @@ To send HTTP Requests with HTTP Request Shortcuts I followed this article [Using
 
 Tasker is going to be used to execute a set of API commands automatically from HTTP Request Shortcuts and group them together so we can organize a set of custom API requests into one group and press one button to set them off sequentially. We can also set that group of commands from tasker into a home screen shortcut!
 
-## Camera
+## Initial Setup for Testing
 
     Name: RICOH THETA X
     Firmware: 1.41.0
@@ -42,6 +42,13 @@ Tasker is going to be used to execute a set of API commands automatically from H
 
 ## Resources
 * [THETA Web API v2.1](https://github.com/ricohapi/theta-api-specs/tree/main/theta-web-api-v2.1)
+* [Tasker Share: Info & State](https://taskernet.com/shares/?user=AS35m8kajU17RlSqYXioAiOHtz3ZH5t63ZQqxoCjEdiCgDA2BoPfS9yYJ9gHtpObgWBbv9I%3D&id=Task%3AInfo+And+State) - Import this Task using the link into your own Android and run it on Tasker, executes both RICOH THETA Web API commands for [Info](https://github.com/ricohapi/theta-api-specs/blob/main/theta-web-api-v2.1/protocols/info.md) and [State](https://github.com/ricohapi/theta-api-specs/blob/main/theta-web-api-v2.1/protocols/state.md)
+
+| Method      | Description                          |
+| ----------- | ------------------------------------ |
+| `INFO`      | Acquires basic information of the camera and supported functions.  |
+| `STATE`     | Acquires the camera states. |
+
 
 ## General Steps
 1. [Get Deep-linking URL from HTTP Shortcuts app](http-req-tut.md)
